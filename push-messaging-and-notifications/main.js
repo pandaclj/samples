@@ -34,7 +34,7 @@ function sendSubscriptionToServer(subscription) {
   //
   // For compatibly of Chrome 43, get the endpoint via
   // endpointWorkaround(subscription)
-  console.log('TODO: Implement sendSubscriptionToServer()');
+  console.log('TODO: Implement sendSubscriptionToServer(),subscription:' + subscription);
 
   var mergedEndpoint = endpointWorkaround(subscription);
 
